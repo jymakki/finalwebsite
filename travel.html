@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" type="text/css" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+  <link rel="shortcut icon" type="image/png" href="./images/travelicon.jpg"/>
+  <title>Travel</title>
+</head>
+<body>
+  <div class="skip"><a href="#images">Skip to Main Content</a></div>
+	<nav>
+  <div>
+        <ul class="nav_links">
+          <li class="nav_item"><a href="index.html">Home</a></li>
+          <li class="nav_item"><a href="tck.html">TCK</a></li>
+          <li class="nav_item"><a href="travel.html" class="active">Travel</a></li>
+          <li class="nav_item"><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  
+  <header>
+    <h1>&#9992;&#65039; Places I've Traveled</h1>
+  </header>
+  <main id=main>
+    <!-- <h2>11+ counties and counting.</h2> -->
+    <p>Over the years, I have had the opportunity to travel and explore different countries, meet people of different backgrounds and learn about new cultures.
+      Whether it's visting tourists spots, interacting with locals or finding the hole-it-the-wall restaurant with expetional food, each experiences
+      and interaction is a memorable one. When people ask me what my favorite part of any trip is, I almost always recall a memorable instance with a kind stranger.
+      The world is full of beautiful places and kind souls, one only has to have an open mind in order appreciate the wonderful world we live in.
+    </p>
+    <p> 11+ counties and counting. Once I discovered my hobby for travel and photography, my sister gifted me a Nikon camera. It's been my closest companion since. 
+      Fully charged and strapped around my neck, I've managed to snap some memorable photos. Here are a few memories I've captured over the years:</p>
+
+    <!-- combine class names -->
+
+    <div class="controls">
+      <button type="button" class="control" data-filter="all">All</button>
+      <button type="button" class="control" data-filter=".lebanon">Lebanon</button>
+      <button type="button" class="control" data-filter=".turkey">Turkey</button>
+      <button type="button" class="control" data-filter=".saudiarabia">Saudi Arabia</button>
+      <button type="button" class="control" data-filter=".portugal">Portugal</button>
+      <button type="button" class="control" data-filter=".spain">Spain</button>
+      <button type="button" class="control" data-filter=".USA">USA</button>
+  </div>
+
+
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="images container" id="images">
+      <img src="./images/aub.jpg" class="item1 mix lebanon" alt="American University of Beirut"> 
+      <img src="./images/bkaissine2.jpg" class="item2 mix lebanon" alt="Road View of Bkaissine">
+      <img src="./images/lebanonbyblos.jpg" class="item3 mix lebanon" alt="Historic Columns In Byblos">
+      <img src="./images/hagiasophia2.JPG" class="item4 mix turkey" alt="Woman Walking Near Hagia Sophia in Istanbul">
+      <img src="./images/turkeyoud.jpg" class="item7 mix turkey" alt="Turkish Street Preformer Playing Oud">
+      <img src="./images/turkeyship.jpg" class="item8 mix turkey" alt="Ship on the Bosphurus in Istanbul">
+      <img src="./images/turkeycoffee.jpg" class="item9 mix turkey" alt="Authentic Turkish Coffee Cup">
+      <img src="./images/turkeybluemosque.jpg" class="item6 mix turkey" alt="Blue Mosque in Istanbul, Turkey">
+      <img src="./images/turkeytea.jpg" class="item5 mix turkey"  alt="Authentic Turkish Tea">
+      <img src="./images/Mecca.jpg" class="item11 mix saudiarabia" alt="The Kaa'ba in the Holy Land of Mecca, Saudi Arabia">
+      <img src="./images/spain1.jpg" class="item12 mix spain" alt="Orange Trees in Cordoba, Spain">
+      <img src="./images/madrid1.jpg" class="item13 mix spain" alt="Streets of Madrid">
+      <img src="./images/turkeyflute.jpg" class="item14 mix turkey" alt="Street Preformer Playing Flute">
+      <img src="./images/spainlady.jpg" class="item15 mix spain" alt="Lady In Madrid">
+      <img src="./images/Lisbon.jpg" class="item16 mix portugal" alt="Colorful Lisbon Rooftops">
+      <img src="./images/Lisbon3.jpg" class="item18 mix portugal" alt="Symmetrical Lisbon Street">
+      <img src="./images/Lisbon2.jpg" class="item17 mix portugal" alt="Famous Building in Lisbon">
+      <img src="./images/michiganfall.JPG" class="item19 mix USA" alt="Colorful Trees During Michigan Autumn">
+      <img src="./images/A2.jpg" class="item20 mix USA" alt="Nichols Arb Enterance">
+      <img src="./images/Jbaa2.jpg" class="item10 mix lebanon" alt="View in Jbaa Lebanon">
+      <img src="./images/boston.jpg" class="item21 mix USA" alt="Bridge in Boston">
+    </div>
+  </div>
+</div>
+
+    <script src="dist/mixitup.min.js"></script>
+
+    <script>
+        var containerEl = document.querySelector('.container');
+
+        var mixer = mixitup(containerEl);
+    </script>
+
+    </main>
+  <footer>
+  <p>Jenan Makki &copy;<br> Fall 2021</p>
+    </footer>
+</body>
+</html>
