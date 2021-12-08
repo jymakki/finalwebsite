@@ -15,12 +15,6 @@ h1{
     margin: 40px;
 }
 
-/* .wrapper {
-    display: flex;
-    flex-flow: wrap;
-    align-items: center;
-    justify-content: left
-  } */
 
 
 .typing-demo {
@@ -170,27 +164,6 @@ footer p{
 }
 
 
-/* .parallax { */
-    /* The image used */
-    /* background-image: url("../images/jenaninsaudi.jpg"); */
-  
-    /* Set a specific height */
-    /* min-height: 500px;  */
-  
-    /* Create the parallax scrolling effect */
-    /* background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  } */
-
-/* 
-.tck img{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  } */
-
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     display: block;
@@ -337,15 +310,6 @@ img.item21{
     background-size: cover;
   }
 
-
-
-/* .contact img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 40px;
-    width: 50%;
-} */
 
 .contact p{
     padding-top: 30px;
@@ -603,8 +567,8 @@ img.item21{
   
     /*Turn off transition*/
     .flip-card, .flip-card:hover, .flip-card-back, .flip-card-front, .flip-card-inner{
-      -webkit-transition: initial; /* sets to default setting */
-      transition: initial; /* sets to default setting */
+      -webkit-transition: initial; 
+      transition: initial; 
     }
   
     /*Turn off parallax*/
